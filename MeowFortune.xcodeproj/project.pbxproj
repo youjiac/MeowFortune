@@ -1,0 +1,382 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXFileReference section */
+		505FEE2FB8F230587FCDE053 /* MeowFortune.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeowFortune.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C43E031B18D9C25EC7E3148 /* MeowFortuneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeowFortuneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXContainerItemProxy section */
+		6E8B16A13A037FDE1F34936E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91AA9FCA878145CBEB785024 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 85D183EAA6A653E94C7AD04D;
+			remoteInfo = MeowFortune;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		8FA9B401F4BEF33A03CE0DBA /* MeowFortune */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MeowFortune;
+			sourceTree = "<group>";
+		};
+		242C6A24DE70F81E18972101 /* MeowFortuneTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MeowFortuneTests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		949BB8E9CF822199AA9E9BF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D305D23BB07DBD3766F437D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		964209A6D3403E11805BC943 = {
+			isa = PBXGroup;
+			children = (
+				8FA9B401F4BEF33A03CE0DBA /* MeowFortune */,
+				242C6A24DE70F81E18972101 /* MeowFortuneTests */,
+				CE66AF5895A1A3FB59C806F8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE66AF5895A1A3FB59C806F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				505FEE2FB8F230587FCDE053 /* MeowFortune.app */,
+				8C43E031B18D9C25EC7E3148 /* MeowFortuneTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		85D183EAA6A653E94C7AD04D /* MeowFortune */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DD430F71F1E2DA76DE827CA /* Build configuration list for PBXNativeTarget "MeowFortune" */;
+			buildPhases = (
+				813EE830A531BB4FBDD3869A /* Sources */,
+				949BB8E9CF822199AA9E9BF4 /* Frameworks */,
+				BC4380A78EAFE7B1385FAFBF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				8FA9B401F4BEF33A03CE0DBA /* MeowFortune */,
+			);
+			name = MeowFortune;
+			packageProductDependencies = (
+			);
+			productName = MeowFortune;
+			productReference = 505FEE2FB8F230587FCDE053 /* MeowFortune.app */;
+			productType = "com.apple.product-type.application";
+		};
+		93D620C42F90564C7B7AA5BC /* MeowFortuneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 339EEEFF4AD126D054542584 /* Build configuration list for PBXNativeTarget "MeowFortuneTests" */;
+			buildPhases = (
+				3A2F0388084AC241E4675065 /* Sources */,
+				3D305D23BB07DBD3766F437D /* Frameworks */,
+				A68263F2D927321A6AFA2421 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E559EB8546319B8AA4A198FF /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				242C6A24DE70F81E18972101 /* MeowFortuneTests */,
+			);
+			name = MeowFortuneTests;
+			packageProductDependencies = (
+			);
+			productName = MeowFortuneTests;
+			productReference = 8C43E031B18D9C25EC7E3148 /* MeowFortuneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		91AA9FCA878145CBEB785024 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2600;
+				LastUpgradeCheck = 2600;
+				TargetAttributes = {
+					85D183EAA6A653E94C7AD04D = {
+						CreatedOnToolsVersion = 26.0;
+					};
+					93D620C42F90564C7B7AA5BC = {
+						CreatedOnToolsVersion = 26.0;
+						TestTargetID = 85D183EAA6A653E94C7AD04D;
+					};
+				};
+			};
+			buildConfigurationList = 2938D9E1D4C9CC3EC2553027 /* Build configuration list for PBXProject "MeowFortune" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 964209A6D3403E11805BC943;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = CE66AF5895A1A3FB59C806F8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				85D183EAA6A653E94C7AD04D /* MeowFortune */,
+				93D620C42F90564C7B7AA5BC /* MeowFortuneTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC4380A78EAFE7B1385FAFBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A68263F2D927321A6AFA2421 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		813EE830A531BB4FBDD3869A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A2F0388084AC241E4675065 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E559EB8546319B8AA4A198FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 85D183EAA6A653E94C7AD04D /* MeowFortune */;
+			targetProxy = 6E8B16A13A037FDE1F34936E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0AA2557196747E21F84BAAB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		92B26B3BE2F4F3CAE7F4CF97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		417EA93E6945A170BAF221F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "喵喵心情籤";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zachchen.MeowFortune";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		ED8816A423DD50C570C6B2E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "喵喵心情籤";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zachchen.MeowFortune";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		AB7D37FC55A8B74D572AB05C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zachchen.MeowFortuneTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MeowFortune.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MeowFortune";
+			};
+			name = Debug;
+		};
+		187D35B9666256486F5B4183 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zachchen.MeowFortuneTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MeowFortune.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MeowFortune";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2938D9E1D4C9CC3EC2553027 /* Build configuration list for PBXProject "MeowFortune" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AA2557196747E21F84BAAB7 /* Debug */,
+				92B26B3BE2F4F3CAE7F4CF97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7DD430F71F1E2DA76DE827CA /* Build configuration list for PBXNativeTarget "MeowFortune" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				417EA93E6945A170BAF221F4 /* Debug */,
+				ED8816A423DD50C570C6B2E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		339EEEFF4AD126D054542584 /* Build configuration list for PBXNativeTarget "MeowFortuneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB7D37FC55A8B74D572AB05C /* Debug */,
+				187D35B9666256486F5B4183 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 91AA9FCA878145CBEB785024 /* Project object */;
+}
