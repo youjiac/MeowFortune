@@ -19,12 +19,12 @@
 
 ```mermaid
 flowchart LR
-  D[DrawView] --> E[FortuneEngine<br/>FNV-1a + SplitMix64]
-  D -->|insert| SD[(SwiftData<br/>FortuneRecord)]
-  H[HistoryView] -->|@Query| SD
-  H --> ST[Streak]
-  D --> IR[ImageRenderer] --> SL[ShareLink]
-  G[GalleryView] --> NET[cataas.com AsyncImage]
+  D["DrawView"] --> E["FortuneEngine<br/>FNV-1a + SplitMix64"]
+  D -->|"insert"| SD[("SwiftData<br/>FortuneRecord")]
+  H["HistoryView"] -->|"@Query"| SD
+  H --> ST["Streak"]
+  D --> IR["ImageRenderer"] --> SL["ShareLink"]
+  G["GalleryView"] --> NET["cataas.com AsyncImage"]
 ```
 
 邏輯層（Model / Engine）不依賴 SwiftUI，可以單獨測試；畫面只負責顯示與轉發事件。
